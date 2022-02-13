@@ -1,1 +1,10 @@
-
+gcc -g p2original.c
+ ./a.out
+Enter a side of the triangle:
+1
+Enter a side of the triangle:
+2
+Enter a side of the triangle:
+3
+The triangle with sides 1, 2 and 3 is scalene
+ 
