@@ -1,1 +1,8 @@
+ gcc -g p3final.c
+ ./a.out
+Enter the number:
+8
+8 is a composite number
+ 
+
 
