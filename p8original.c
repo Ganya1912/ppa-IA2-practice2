@@ -3,7 +3,7 @@ struct _triangle
 {
 float base,altitude,area;
 };
-typedef struct _triangle Triangle
+typedef struct  _triangle Triangle
 int input_n()
 {
   int a;
@@ -43,19 +43,20 @@ Triangle find_smallest_triangle(int n, Triangle t[n])
  for(int i=0;i<n;i++)
    {
   if(small.area > t[1].area);
-     small.area = t[1].area;
+     {
+     small= t[1];
+    }
+   }
+  return small;
+}
+    void output(int n, Triangle t[n], Triangle smallest)
+{
+  for(int i=0;i<n;i++)
+    {
+      printf("(%.0f,%.0f) the triangle with base = %.0f and altitude = %.0f having area = %.0f is the smallest one \n",)
     }
 }
-
-
-
-
-
-
-
-
-
-
+  
 
 int main()
 {
