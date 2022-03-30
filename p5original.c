@@ -29,3 +29,6 @@ int main()
   output(a,b,g);
   return 0;
 }
+
+
+
